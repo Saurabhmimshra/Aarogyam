@@ -1,0 +1,12 @@
+Progress Report
+
+By now, we have accomplished following tasks
+:
+
+1.0 Creation of web form for patient registration
+2.0 creation of webform for prescription generation
+3.0 web portal creation for pharmacist 
+4.0 Implementation of Server
+5.0 Adding database exchange functionality
+6.0 further Tasks in progress 
+
