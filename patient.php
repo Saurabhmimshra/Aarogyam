@@ -16,15 +16,8 @@
 
   <!-- <center><label><h3>Appointment Type</h3></label><br></center>
   <div>
-  <div class="col-sm-6">
-    <button type="button" name="New_Appointment" class="form-control" onclick="new_user()">New Appointment</button>
-      </div>
-      <div class="col-sm-6">
-        <button type="button" name="Existing_Appointment" class="form-control" onclick="existing_user()">Existing Appointment</button>
-          </div>
-    </div>
     <br>
-    <br> --><div class="col-md-3"></div>
+    <br><div class="col-md-3"></div>
     <div id="form" class="col-md-6">
       <form>
       <label for="id">Aarogyam ID</label><input  id="id" class="form-control" maxlength="40" name="id" size="20" type="text" required /><br>
@@ -54,7 +47,7 @@
 <footer style="padding: 20px; border-top: 1px solid #eee; margin-top: 25px;">
   <div class="container">
   <div class="text-muted text-center">
-    
+
   </div>
     </div>
 </footer>
