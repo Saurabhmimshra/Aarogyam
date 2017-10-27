@@ -40,11 +40,11 @@
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 								<ul class="nav navbar-nav navbar-right">
-									<li><a class="menu active" href="#home" >Home</a></li>
 									<li><a class="menu" href="#about">about us</a></li>
-									<li><a class="menu" href="#service">our services </a></li>
-									<li><a class="menu" href="#team">our team</a></li>
-									<li><a class="menu" href="#contact"> contact us</a></li>
+									<li><a class="menu" href="#appointment">Book Appointment </a></li>
+									<li><a class="menu" href="#details">Aarogyam Details</a></li>
+									<li><a class="menu" href="#contact"> contact</a></li>
+
 								</ul>
 							</div>
 						</div>
@@ -210,7 +210,7 @@
 	</section>
 
 
-	
+
 	<!-- map section -->
 	<div class="api-map" id="contact">
 		<div class="container-fluid">
@@ -232,10 +232,9 @@
 						<h3>contact information</h3>
 						<div class="info-detail">
 							<ul><li><i class="fa fa-calendar"></i><span>Monday - Friday:</span> 9:30 AM to 6:30 PM</li></ul>
-							<ul><li><i class="fa fa-map-marker"></i><span>Address:</span> 123 Some Street , London, UK, CP 123</li></ul>
-							<ul><li><i class="fa fa-phone"></i><span>Phone:</span> (032) 987-1235</li></ul>
-							<ul><li><i class="fa fa-fax"></i><span>Fax:</span> (123) 984-1234</li></ul>
-							<ul><li><i class="fa fa-envelope"></i><span>Email:</span> info@doctor.com</li></ul>
+							<ul><li><i class="fa fa-map-marker"></i><span>Address:</span> Convoke Delhi India</li></ul>
+							<ul><li><i class="fa fa-phone"></i><span>Phone:</span>9560766238</li></ul>
+							<ul><li><i class="fa fa-envelope"></i><span>Email:</span> Sanchit@sanchit.com</li></ul>
 						</div>
 					</div>
 					<div class="col-md-6 col-md-offset-1 contact-form">
@@ -252,14 +251,13 @@
 				</div>
 			</div>
 		</div>
-	</section><!-- end of contact section -->
+	</section>
 
-	<!-- footer starts here -->
 	<footer class="footer clearfix">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-6 footer-para">
-					<p>&copy;Mostafizur All right reserved</p>
+
 				</div>
 				<div class="col-xs-6 text-right">
 					<a href=""><i class="fa fa-facebook"></i></a>
