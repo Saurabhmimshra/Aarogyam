@@ -11,3 +11,5 @@ We are building a Global web- based application that will provide the following 
         2.Appointment Details 
         3.Prescriptions 
         4.Medications
+        
+Another feature that it will provide is that it will simplify the claim settlement process of Medi-Claims ultra-Easy.        
