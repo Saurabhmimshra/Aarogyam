@@ -13,6 +13,8 @@
 </head>
 
   <body>
+    <div class="flexer">
+      <div class="col-md-4">
     <nav class="navbar navbar-default" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
@@ -44,6 +46,25 @@
     <button type="button"  class="form-control" name="button" onclick="">bjhbhj</button><br>
 
 
+</div>
+</div>
 </nav>
+<div class="col-md-6 jumbotron">
+<center><h2>ORDER DETAILS</h2></center><br><br>
+<div class="com-md-6 flexer">
+  <br><h4>Patient Aarogyam Id</h4>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <div id="aarogyam_id"><h4>Patient Aarogyam Id database waali</h4></div>
+</div>
+<div class="com-md-6 flexer">
+  <br><h4>Patient Name</h4>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <div id="name"><h4>Patient Aarogyam Id database waali</h4></div>
+</div>
+<div class="com-md-6 ">
+  <br><h4>Prescription Details</h4>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <div id="Prescription"><h4>Patient Aarogyam Id database waali</h4></div>
+</div>
+</div>
+</div>
+</div>
     </body>
 </html>

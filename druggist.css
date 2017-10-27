@@ -16,7 +16,10 @@
 .navbar-collapse.in {
   overflow-x: visible;
 }
-
+.flexer
+{
+  display: flex;
+}
 .navbar
 {
 max-width:300px;
