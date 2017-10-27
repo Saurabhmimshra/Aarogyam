@@ -16,8 +16,6 @@
 <div class="container">
   <div class="row">
 
-  <!-- <center><label><h3>Appointment Type</h3></label><br></center>
-  <div>
     <br>
     <br><div class="col-md-3"></div>
     <div id="form" class="col-md-6">
