@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -26,25 +28,21 @@
     <br>
     <br> --><div class="col-md-3"></div>
     <div id="form" class="col-md-6">
-      <form>
+
+<?
+  if(isset($_POST['id']) && isset($_POST['name']))
+    echo 'ok';
+?>
+    
+     <form name = "arid"> 
       <label for="id">Aarogyam ID</label><input  id="id" class="form-control" maxlength="40" name="id" size="20" type="text" required /><br>
-
-      <button type="button" class="form-control" name="load_info">Fetch Information</button>
-
-
-      <label for="first_name">Name</label><input  id="first_name" class="form-control" maxlength="40" name="first_name" size="20" type="text" required /><br>
-      <label for="age">Age</label><input  id="age" maxlength="40"  class="form-control" name="age" size="20" type="number"/><br>
-      <label for="sex">Sex</label><select  class="form-control"  id="sex" name="sex"><option value="">--None--</option><option value="Male">Male</option>
-      <option value="Female">Female</option>
-      <option value="Others">Others</option>
-      </select>
-      <label for="diagnostic">Diagnostic Info</label><textarea  class="form-control" name="diagnostic" required></textarea><br>
-      <label for="prescription">Prescription</label><textarea  class="form-control" name="prescription" required></textarea><br>
-      <label for="duration">Duration</label><input  id="duration" maxlength="20" name="duration"  class="form-control" size="20" type="number" required/><br>
-      <label for="next_appointment">Next Appointment Date</label><input  id="next_appointment" maxlength="40" class="form-control"  name="next_appointment" size="20" type="text" required/><br>
-      <label for="special">Special Care</label><textarea  class="form-control" name="special" required></textarea><br>
-      <input type="submit"  class="form-control" name="submit" required>
       </form>
+      <button type="button" onclick="fetchInfo()" class="form-control" name="load_info">Fetch Information</button>
+
+     <div id="fetched">
+       <!-- fetched detatails -->
+     </div>
+
 
     </div>
 </div>
@@ -68,4 +66,23 @@
   }
 
   </script> -->
+
+  <script type="text/javascript">
+    function fetchInfo() {
+        var id = arid.id.value;
+        if (id.length == 0) { 
+            alert("Invalid Arogyam id.");            
+            return;
+        } else {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("fetched").innerHTML = this.responseText;
+                }
+            };
+            xmlhttp.open("GET", "getdetails.php?q=" + id, true);
+            xmlhttp.send();
+        }
+    }
+  </script>
 </html>
