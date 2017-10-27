@@ -11,15 +11,23 @@
         <title></title>
   </head>
   <body>
-
+<div class="container">
 <form>
+  <center><label><h3>Appointment Type</h3></label><br></center>
+  <div>
+  <div class="col-sm-6">
+    <button type="button" name="New_Appointment" class="form-control" onclick="new_user()">New Appointment</button>
+      </div>
+      <div class="col-sm-6">
+        <button type="button" name="Existing_Appointment" class="form-control">Existing Appointment</button>
+          </div>
+    </div>
+    <br>
+    <div id="form">
+    </div>
+</div>
 
 
-<input type="submit"  class="form-control" name="submit" required>
-
-</form>
-
-</form>
 <footer style="padding: 20px; border-top: 1px solid #eee; margin-top: 25px;">
   <div class="container">
   <div class="text-muted text-center">
@@ -28,4 +36,5 @@
     </div>
 </footer>
   </body>
+  
 </html>
