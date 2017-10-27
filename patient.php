@@ -1,4 +1,6 @@
-
+<?
+  require 'connect.inc.php';
+?>
 
 <!DOCTYPE html>
 <html>
@@ -21,8 +23,26 @@
     <div id="form" class="col-md-6">
 
 <?
-  if(isset($_POST['id']) && isset($_POST['name']))
-    echo 'ok';
+  if(isset($_POST['first_name']) && isset($_POST['dob']) && isset($_POST['sex']) && isset($_POST['diagnostic'])  && isset($_POST['prescription'])  && isset($_POST['duration']) && isset($_POST['next_appointment']) && isset($_POST['special'])){
+      if(!empty($_POST['first_name'])){
+        $rid = $_POST['rid'];
+        $dob = $_POST['dob'];
+        $sex = $_POST['sex'];
+        $diagnostic = $_POST['diagnostic'];
+        $prescription = $_POST['prescription'];
+        $duration = $_POST['duration'];
+        $next_appointment = $_POST['next_appointment'];
+        $special = $_POST['special'];
+
+        $query = "INSERT INTO `diagnose`(`diagid`, `arid`, `diagnostic`, `prescription`, `duration`, `next_appointment`, `special`) VALUES ('','".$rid . "','" . $diagnostic .  "','" . $prescription . "','". $duration ."','". $next_appointment ."','". $special ."')";
+        $result = mysqli_query($con, $query);
+        if($err =  mysqli_error($con)){
+          die($err);
+        }else{
+          echo '<div class = "alert alert-success"><strong>Data Saved !</strong></div>';
+        }
+      }
+  }
 ?>
     
      <form name = "arid"> 
