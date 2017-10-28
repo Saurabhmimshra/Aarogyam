@@ -47,9 +47,9 @@
 
 								<ul class="nav navbar-nav navbar-right">
 									<li><a class="menu" href="#about">about us</a></li>
-									<li><a class="menu" href="#appointment">Book Appointment </a></li>
-									<li><a class="menu" href="#details">Aarogyam Details</a></li>
-									<li><a class="menu" href="#contact"> contact</a></li>
+									<li><a class="menu" href="appointment.php">Book Appointment </a></li>
+									<li><a class="menu" href="patient.php">Aarogyam Details</a></li>
+									<li><a class="menu" href="home.php#contact"> contact</a></li>
 
 								</ul>
 							</div>
@@ -72,7 +72,7 @@
 											<div class="carousel-caption">
 												<h1>Claim</h1>
 												<p> Settlements Now a Cake-Walk</p>
-												<button>learn more</button>
+												<a href="patient_registration.php"><button>learn more</button></a>
 											</div>
 									</div>
 									<div class="item">
@@ -80,7 +80,7 @@
 											<div class="carousel-caption">
 												<h1>Paperless</h1>
 												<p>Green ecosystem</p>
-												<button>learn more</button>
+												<a href="patient_registration.php"><button>learn more</button></a>
 											</div>
 									</div>
 									<div class="item">
@@ -88,9 +88,9 @@
 											<div class="carousel-caption">
 												<h1>World</h1>
 												<p>Health Tracking Made Easy</p>
-												<button>learn more</button>
+												<a href="patient_registration.php"><button>learn more</button></a>
 											</div>
-									
+
 									</div>
 							</div>
 							<a class="left carousel-control" href="#carouselHacked" role="button" data-slide="prev">
@@ -151,7 +151,7 @@
 							</div>
 							<h3>Mediclaims made CakeWalk!</h3>
 							<p>No More Monkey-Business by mediclaim providers.Claiming mediclaims are now as easy as eating a Pie!</p><br>
-                            
+
 						</div>
 					</div>
 				</div>
@@ -202,7 +202,7 @@
 							</div>
 							<h3>Aarogyam Card!</h3>
 							<p>Now each and everyone is equipped with an Aarogyam card from the time of birth itself,with a validity of Lifetime!.</p><br>
-                            
+
 						</div>
 					</div>
 				</div>
@@ -327,6 +327,6 @@
 
 	<!-- script tags
 	============================================================= -->
-	
+
 </body>
 </html>
