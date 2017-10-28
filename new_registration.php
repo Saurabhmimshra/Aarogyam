@@ -76,8 +76,6 @@
 		</div>
 		<div class="col-sm-3"></div>
 	</div>
-	<?php
-	require 'footer.php';
-	?>
+	
 </body>
 </html>

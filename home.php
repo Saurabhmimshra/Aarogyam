@@ -72,7 +72,7 @@
 											<div class="carousel-caption">
 												<h1>Claim</h1>
 												<p> Settlements Now a Cake-Walk</p>
-												<a href="patient_registration.php"><button>learn more</button></a>
+												<a href="user_detail_fetch.php"><button>learn more</button></a>
 											</div>
 									</div>
 									<div class="item">
@@ -80,7 +80,7 @@
 											<div class="carousel-caption">
 												<h1>Paperless</h1>
 												<p>Green ecosystem</p>
-												<a href="patient_registration.php"><button>learn more</button></a>
+												<a href="user_detail_fetch.php"><button>learn more</button></a>
 											</div>
 									</div>
 									<div class="item">
@@ -88,7 +88,7 @@
 											<div class="carousel-caption">
 												<h1>World</h1>
 												<p>Health Tracking Made Easy</p>
-												<a href="patient_registration.php"><button>learn more</button></a>
+												<a href="user_detail_fetch.php"><button>learn more</button></a>
 											</div>
 
 									</div>
