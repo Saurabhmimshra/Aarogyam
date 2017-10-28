@@ -12,6 +12,12 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
 	<script src="js/modernizr.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="js/gmaps.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
 
 </head>
 <body>
@@ -62,7 +68,7 @@
 
 							<div class="carousel-inner" role="listbox">
 									<div class="item active">
-										<img src="img/slide-one.jpg" alt="">
+										<img src="img/slide-one.jpg" style="height: 500px; width: 100%;"alt="">
 											<div class="carousel-caption">
 												<h1>Claim</h1>
 												<p> Settlements Now a Cake-Walk</p>
@@ -70,7 +76,7 @@
 											</div>
 									</div>
 									<div class="item">
-										<img src="img/slide-two.jpg" alt="">
+										<img src="img/slide-two.jpg" style="height: 500px; width: 100%;" alt="">
 											<div class="carousel-caption">
 												<h1>Paperless</h1>
 												<p>Green ecosystem</p>
@@ -78,7 +84,7 @@
 											</div>
 									</div>
 									<div class="item">
-										<img src="img/slide-three.jpg" alt="">
+										<img src="img/slide-three.jpg" style="height: 500px; width: 100%;" alt="">
 											<div class="carousel-caption">
 												<h1>World</h1>
 												<p>Health Tracking Made Easy</p>
@@ -321,11 +327,6 @@
 
 	<!-- script tags
 	============================================================= -->
-	<script src="js/jquery-2.1.1.js"></script>
-	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-	<script src="js/gmaps.js"></script>
-	<script src="js/smoothscroll.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/custom.js"></script>
+	
 </body>
 </html>

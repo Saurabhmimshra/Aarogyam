@@ -7,11 +7,13 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <meta charset="utf-8">
-      <link rel="stylesheet" href="druggist.css">
       <title></title>
 </head>
 
   <body>
+    <?php
+    require 'navbar.php';
+    ?>
     <div class="greener">
     <img src="appointment.png" height="300vw%" width="100%vw" alt="appointment"><br><br>
 
@@ -35,5 +37,8 @@
 
   </div>
   </div>
+  <?php
+  require 'footer.php';
+  ?>
     </body>
 </html>

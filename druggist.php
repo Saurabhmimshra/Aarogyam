@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <meta charset="utf-8">
-      <link rel="stylesheet" href="druggist.css">
       <title></title>
 </head>
 
   <body>
+
+    <?php
+    require 'navbar.php';
+    ?>
     <div class="flexer">
       <div class="col-md-4">
     <nav class="navbar navbar-default" role="navigation">
@@ -33,19 +36,7 @@
     <button type="button"  class="form-control" name="button" onclick="">bjhbhj</button><br>
     <button type="button"  class="form-control" name="button" onclick="">bjhbhj</button><br>
     <button type="button"  class="form-control" name="button" onclick="">bjhbhj</button><br>
-    <button type="button"  class="form-control" name="button" onclick="">bjhbhj</button><br>
-    <button type="button"  class="form-control" name="button" onclick="">bjhbhj</button><br>
-    <button type="button"  class="form-control" name="button" onclick="">bjhbhj</button><br>
-    <button type="button"  class="form-control" name="button" onclick="">bjhbhj</button><br>
-    <button type="button"  class="form-control" name="button" onclick="">bjhbhj</button><br>
-    <button type="button"  class="form-control" name="button" onclick="">bjhbhj</button><br>
-    <button type="button"  class="form-control" name="button" onclick="">bjhbhj</button><br>
-    <button type="button"  class="form-control" name="button" onclick="">bjhbhj</button><br>
-    <button type="button"  class="form-control" name="button" onclick="">bjhbhj</button><br>
-    <button type="button"  class="form-control" name="button" onclick="">bjhbhj</button><br>
-    <button type="button"  class="form-control" name="button" onclick="">bjhbhj</button><br>
-
-
+    
 </div>
 </div>
 </nav>
@@ -66,5 +57,8 @@
 </div>
 </div>
 </div>
+<?php
+require 'footer.php';
+?>
     </body>
 </html>
