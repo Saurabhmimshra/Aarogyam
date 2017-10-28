@@ -10,3 +10,14 @@ By now, we have accomplished following tasks
 5.0 Adding database exchange functionality
 6.0 further Tasks in progress 
 
+
+Upcoming tasks that we are going to Establish ::
+
+1.Report generation at national level
+2.Report generation at state level
+3.DNA detail storage for criminal cases
+4.Linking of webpages together
+
+
+*We want to implement Pedigeree analysis but that would require Machine Learning Implementations that we are not comfortable with
+now but we will be pleased to work upon it in future.
