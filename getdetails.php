@@ -34,6 +34,9 @@
       <label for="special">Special Care</label>
       <textarea  class="form-control" name="special" ></textarea><br>
 
+      <label for="do">Date</label>
+      <input  id="do" maxlength="20" name="date"  class="form-control" size="20" type="date" /><br>
+
       <input value="'.  $id .'" type="text" name="rid" hidden/>
       
       <input type="submit"  value= "Submit" class="form-control" name="submit">
