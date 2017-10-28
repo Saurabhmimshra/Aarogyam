@@ -70,7 +70,7 @@ Using this data awareness can be spread amongst people and corrective and need o
 		<option value="Female">pak</option>
 		<option value="Others">china</option>
 	</select>
-	<button type="button" class="form-control" name="button" onclick="chart2()"><h4>Click to Generate Graph</h4></button></form>
+	<button type="button" style="PADDING-BOTTOM: 5%;" class="form-control" name="button" onclick="chart2()"><h4>Click to Generate Graph</h4></button></form>
 	<div id="statechart">
 
 	</div>
