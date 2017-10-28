@@ -16,12 +16,15 @@
 
 </head>
 <body style="text-align: center;">
+	<?php
+	require 'navbar.php';
+	?>
 	<div class="row">
 		<div class="col-sm-3"></div>
 		<div class="col-sm-6">
 
 		<?
-			if(isset($_POST['name']) && 
+			if(isset($_POST['name']) &&
 				isset($_POST['father_name']) &&
 				isset($_POST['mother_name']) &&
 				isset($_POST['father_rid']) &&
@@ -66,13 +69,15 @@
 					}
 				}
 			}
-		
+
 		?>
-			
+
 			<a href="patient_registration.php">Another Registstration</a>
 		</div>
-		<div class="col-sm-3"></div>		
+		<div class="col-sm-3"></div>
 	</div>
-
+	<?php
+	require 'footer.php';
+	?>
 </body>
 </html>
