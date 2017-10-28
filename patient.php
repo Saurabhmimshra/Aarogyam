@@ -64,9 +64,7 @@
 
 
 
-<?php
-require 'footer.php';
-?>
+
   </body>
   <!-- <script type="text/javascript">
   function new_user() {
