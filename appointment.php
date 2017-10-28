@@ -11,9 +11,27 @@
 </head>
 
   <body>
-    <?php
-    require 'navbar.php';
-    ?>
+    <nav class="navbar navbar-inverse" style="background-color:#f8f8f8;">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="home.php">AAROGYAM</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li ><a href="#">Home</a></li>
+      <li><a href="home.php#about">About Us</a></li>
+      <li class="active"><a href="appointment.php">Book Appointment</a></li>
+      <li><a href="patient.php">Aarogyam Details</a></li>
+      <li><a href="home.php#contact">Contact Us</a></li>
+
+
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="patient_registration.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="user_DETAIL_FETCH_REDIRECT.PHP"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+    </div>
+  </nav>
+
     <div class="greener">
     <img src="appointment.png" height="300vw%" width="100%vw" alt="appointment"><br><br>
 
