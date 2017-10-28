@@ -64,34 +64,27 @@
 									<div class="item active">
 										<img src="img/slide-one.jpg" alt="">
 											<div class="carousel-caption">
-												<h1>providing</h1>
-												<p>highquality service for men &amp; women</p>
+												<h1>Claim</h1>
+												<p> Settlements Now a Cake-Walk</p>
 												<button>learn more</button>
 											</div>
 									</div>
 									<div class="item">
 										<img src="img/slide-two.jpg" alt="">
 											<div class="carousel-caption">
-												<h1>providing</h1>
-												<p>highquality service for men &amp; women</p>
+												<h1>Paperless</h1>
+												<p>Green ecosystem</p>
 												<button>learn more</button>
 											</div>
 									</div>
 									<div class="item">
 										<img src="img/slide-three.jpg" alt="">
 											<div class="carousel-caption">
-												<h1>providing</h1>
-												<p>highquality service for men &amp; women</p>
+												<h1>World</h1>
+												<p>Health Tracking Made Easy</p>
 												<button>learn more</button>
 											</div>
-									</div>
-									<div class="item">
-										<img src="img/slide-four.jpg" alt="">
-											<div class="carousel-caption">
-												<h1>providing</h1>
-												<p>highquality service for men &amp; women</p>
-												<button>learn more</button>
-											</div>
+									
 									</div>
 							</div>
 							<a class="left carousel-control" href="#carouselHacked" role="button" data-slide="prev">
@@ -195,7 +188,7 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="single-about-detail">
 						<div class="about-img">
-							<img class="img-responsive" src="img/item6.jpg" height="40" alt="">
+							<img class="img-responsive" src="img/item6.jpg" height="" alt="">
 						</div>
 						<div class="about-details">
 							<div class="pentagon-text">
@@ -212,13 +205,16 @@
 	</section>
 
 
-	<section class="service text-center" id="service">
+<!--	<section class="service text-center" id="service">-->
+<!--
 		<div class="container">
 			<div class="row">
 				<h2>our services</h2>
 				<h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h4>
 				<div class="col-md-3 col-sm-6">
 					<div class="single-service">
+-->
+<!--
 						<div class="single-service-img">
 							<div class="service-img">
 								<img class="heart img-responsive" src="img/service1.png" alt="">
@@ -260,6 +256,7 @@
 			</div>
 		</div>
 	</section>
+-->
 
 
 
@@ -280,15 +277,16 @@
 					<div class="contact-heading text-center">
 						<h2>contact us</h2>
 					</div>
-					<div class="col-md-5 contact-info text-left">
-						<h3>contact information</h3>
+					<div class="contact-info">
+						<center>><h3>contact information</h3>
 						<div class="info-detail">
 							<ul><li><i class="fa fa-calendar"></i><span>Monday - Friday:</span> 9:30 AM to 6:30 PM</li></ul>
 							<ul><li><i class="fa fa-map-marker"></i><span>Address:</span> Convoke Delhi India</li></ul>
 							<ul><li><i class="fa fa-phone"></i><span>Phone:</span>9560766238</li></ul>
-							<ul><li><i class="fa fa-envelope"></i><span>Email:</span> Sanchit@sanchit.com</li></ul>
+							<ul><li><i class="fa fa-envelope"></i><span>Email:</span> Sanchit@sanchit.com</li></ul></center>
 						</div>
 					</div>
+<!--
 					<div class="col-md-6 col-md-offset-1 contact-form">
 						<h3>leave us a message</h3>
 
@@ -300,6 +298,7 @@
 							<input class="submit-btn" type="submit" value="SUBMIT">
 						</form>
 					</div>
+-->
 				</div>
 			</div>
 		</div>
