@@ -38,13 +38,16 @@
       <input  id="do" maxlength="20" name="date"  class="form-control" size="20" type="date" /><br>
 
       <label for="die">Disease</label>
-      <select id="die" name="disease" class="form-control">'
-               <option value="Male">Male</option>
-               <option value="Female">Female</option>
-               <option value="Others">Others</option>
-     echo ' </select>
+      <select id="die" name="disease" class="form-control">
+       <option value= "">None</option>
+       <option value="AIDS">AIDS</option>
+       <option value= "Arthritis">Arthritis</option>
+       <option value= "Chicken Gunia">Chicken Gunia</option>
+       <option value= "Dengue">Dengue</option>
+       <option value= "Malaria">Malaria</option>
+      </select>
 
-
+      <br>
       <input value="'.  $id .'" type="text" name="rid" hidden/>
       
       <input type="submit"  value= "Submit" class="form-control" name="submit">
