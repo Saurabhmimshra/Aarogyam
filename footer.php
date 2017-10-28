@@ -10,7 +10,8 @@
 
 	<!-- scroll reveal -->
 	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-<div class="footer">
+<div class="footer" style="position: absolute;
+    bottom: 0;">
 		<div class="container">
 			<div class="footer-heading">
 				<p><span id="footer-logo">S.P.I.</span>Special Project Initiative</p>
