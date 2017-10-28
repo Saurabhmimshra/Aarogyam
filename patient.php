@@ -15,6 +15,9 @@
         <title></title>
   </head>
   <body>
+    <?php
+    require 'navbar.php';
+    ?>
 <div class="container">
   <div class="row">
 
@@ -44,8 +47,8 @@
       }
   }
 ?>
-    
-     <form name = "arid"> 
+
+     <form name = "arid">
       <label for="id">Aarogyam ID</label><input  id="id" class="form-control" maxlength="40" name="id" size="20" type="text" required /><br>
       </form>
       <button type="button" onclick="fetchInfo()" class="form-control" name="load_info">Fetch Information</button>
@@ -60,13 +63,9 @@
 
 
 
-<footer style="padding: 20px; border-top: 1px solid #eee; margin-top: 25px;">
-  <div class="container">
-  <div class="text-muted text-center">
-
-  </div>
-    </div>
-</footer>
+<?php
+require 'footer.php';
+?>
   </body>
   <!-- <script type="text/javascript">
   function new_user() {
@@ -81,8 +80,8 @@
   <script type="text/javascript">
     function fetchInfo() {
         var id = arid.id.value;
-        if (id.length == 0) { 
-            alert("Invalid Arogyam id.");            
+        if (id.length == 0) {
+            alert("Invalid Arogyam id.");
             return;
         } else {
             var xmlhttp = new XMLHttpRequest();
