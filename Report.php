@@ -1,3 +1,7 @@
+<?php
+	require 'connect.inc.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -75,9 +79,9 @@ Using this data awareness can be spread amongst people and corrective and need o
 	<label for="state">Select a State</label>
 	<select class="form-control" id="state" >
 		<option value="">--Kindly Select a State--</option>
-		<option value="Male">india</option>
-		<option value="Female">pak</option>
-		<option value="Others">china</option>
+		<option value="Delhi">Delhi</option>
+		<option value="Mumbai">Mumbai</option>
+		<option value="Kolkata">Kolkata</option>
 	</select>
 	<button type="button" style="PADDING-BOTTOM: 5%;" class="form-control" name="button" onclick="chart2()"><h4>Click to Generate Graph</h4></button></form>
 	<div id="statechart">
@@ -90,32 +94,38 @@ Using this data awareness can be spread amongst people and corrective and need o
 
 
 
-
-	<div class="footer">
-		<div class="container">
-			<div class="footer-heading">
-				<p><span id="footer-logo">S.P.I.</span>Special Project Initiative</p>
-			</div>
-				<div class="social">
-					<ul class="social-list">
-						<li class="icon-footer"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-						<li class="icon-footer" ><a href="#"><i  class="fa fa-google-plus-square"></i></a></li>
-					</ul>
-				</div>
-			<div class="line"></div>
-			<div class="pow">
-				<p>Powered by Teamspi.in</p>
-			</div>
-
-		</div>
-
-	</div>
-
+<!--  -->
 </body>
 
 <script type="text/javascript" src ></script>
 
 </html>
+
+<?php
+		$aids = $arthritis = $chickengunia = $dengue = $malaria = 0;
+		$query = "select `disease` from `diagnose`";
+		$result = mysqli_query($con, $query);
+		echo mysqli_error($con);
+		while ($row = mysqli_fetch_assoc($result)) {
+			if($row['disease'] == 'AIDS'){
+				$aids++;
+			}
+			if ($row['disease'] == 'Arthritis') {
+				$arthritis++;
+			}
+			if ($row['disease'] == 'Chicken Gunia') {
+				$chickengunia++;
+			}
+			if ($row['disease'] == 'Dengue') {
+				$dengue++;
+			}
+			if($row['disease'] == 'Malaria'){
+				$malaria++;
+			}
+		}
+
+?>
+
 <script>
 function chart2()
 {
@@ -151,6 +161,8 @@ function chart2()
 	});
 	chart.render();
 	}
+
+	
 window.onload = function () {
 
 var chart = new CanvasJS.Chart("chartContainer", {
