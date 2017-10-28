@@ -33,8 +33,8 @@
         $duration = $_POST['duration'];
         $next_appointment = $_POST['next_appointment'];
         $special = $_POST['special'];
-
-        $query = "INSERT INTO `diagnose`(`diagid`, `arid`, `diagnostic`, `prescription`, `duration`, `next_appointment`, `special`) VALUES ('','".$rid . "','" . $diagnostic .  "','" . $prescription . "','". $duration ."','". $next_appointment ."','". $special ."')";
+        $date = $_POST['date'];
+        $query = "INSERT INTO `diagnose`(`diagid`, `arid`, `diagnostic`, `prescription`, `duration`, `next_appointment`, `special`, `date`) VALUES ('','".$rid . "','" . $diagnostic .  "','" . $prescription . "','". $duration ."','". $next_appointment ."','". $special ."', '". $date ."')";
         $result = mysqli_query($con, $query);
         if($err =  mysqli_error($con)){
           die($err);
