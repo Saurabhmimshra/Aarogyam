@@ -1,7 +1,6 @@
-<?
+<?php
   require 'connect.inc.php';
-?>
-
+ ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -24,14 +23,16 @@
       <li><a href="#">Home</a></li>
       <li><a href="home.php#about">About Us</a></li>
       <li><a href="appointment.php">Book Appointment</a></li>
-      <li class="active"><a href="patient.php">Aarogyam Details</a></li>
+      <li class="active"><a href="user_detail_fetch.php">Aarogyam Details</a></li>
       <li><a href="home.php#contact">Contact Us</a></li>
+      <li ><a href="report.php">Report Generation</a></li>
+
 
 
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="patient_registration.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="user_DETAIL_FETCH_REDIRECT.PHP"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a href="user_DETAIL_FETCH"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
     </div>
   </nav>
@@ -43,7 +44,7 @@
     <br><div class="col-md-3"></div>
     <div id="form" class="col-md-6">
 
-<?
+<?php
   if(isset($_POST['first_name']) && isset($_POST['dob']) && isset($_POST['sex']) && isset($_POST['diagnostic'])  && isset($_POST['prescription'])  && isset($_POST['duration']) && isset($_POST['next_appointment']) && isset($_POST['special'])){
       if(!empty($_POST['first_name'])){
         $rid = $_POST['rid'];

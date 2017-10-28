@@ -20,8 +20,10 @@
       <li ><a href="#">Home</a></li>
       <li><a href="home.php#about">About Us</a></li>
       <li class="active"><a href="appointment.php">Book Appointment</a></li>
-      <li><a href="patient.php">Aarogyam Details</a></li>
+      <li><a href="user_detail_fetch.php">Aarogyam Details</a></li>
       <li><a href="home.php#contact">Contact Us</a></li>
+      <li ><a href="report.php">Report Generation</a></li>
+
 
 
     </ul>
@@ -55,6 +57,6 @@
 
   </div>
   </div>
-  
+
     </body>
 </html>

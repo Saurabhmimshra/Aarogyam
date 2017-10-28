@@ -33,7 +33,7 @@
 
 				<div class="col-md-7">
 					<nav class="navbar navbar-default">
-						<div class="container-fluid nav-bar">
+						<div class="container-fluid nav-bar" style="width: 110%;">
 							<div class="navbar-header">
 								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 									<span class="sr-only">Toggle navigation</span>
@@ -48,8 +48,10 @@
 								<ul class="nav navbar-nav navbar-right">
 									<li><a class="menu" href="#about">about us</a></li>
 									<li><a class="menu" href="appointment.php">Book Appointment </a></li>
-									<li><a class="menu" href="patient.php">Aarogyam Details</a></li>
+									<li><a class="menu" href="user_detail_fetch.php">Aarogyam Details</a></li>
 									<li><a class="menu" href="home.php#contact"> contact</a></li>
+									<li ><a href="report.php">Report</a></li>
+
 
 								</ul>
 							</div>
