@@ -51,13 +51,19 @@
 				$state = $_POST['state'];
 				$zip = $_POST['zip'];
 				$uidai = $_POST['uidai'];
-
-				$query = "INSERT INTO `patient`(`arid`, `fname`, `mname`, `frid`, `mrid`, `name`, `dob`, `sex`, `phone`, `email`, `address`, `city`, `state`, `zip`, `uidai`) VALUES ('','" . $name . "','". $father_name ."','" . $mother_name . "','". $father_rid ."','". $mother_rid ."','". $dob ."','". $sex ."','". $phone ."','". $email ."','". $address ."','" . $city . "','". $state ."','". $zip ."','". $uidai ."')";
+				$password = uniqid();
+				$query = "INSERT INTO `patient`(`arid`, `fname`, `mname`, `frid`, `mrid`, `name`, `dob`, `sex`, `phone`, `email`, `address`, `city`, `state`, `zip`, `uidai`, `password`) VALUES ('','" . $name . "','". $father_name ."','" . $mother_name . "','". $father_rid ."','". $mother_rid ."','". $dob ."','". $sex ."','". $phone ."','". $email ."','". $address ."','" . $city . "','". $state ."','". $zip ."','". $uidai ."', '" . $password . "')";
 				$result = mysqli_query($con, $query);
 				if($err = mysqli_error($con)){
 					die($err);
 				}else{
-					echo '<div class="alert alert-success"><strong>Rgistration Successful!</strong></div>';
+					$query = 'select MAX(`arid`) from `patient`';
+					$result = mysqli_query($con, $query);
+					while($row = mysqli_fetch_assoc($result)){
+						// print_r($row);
+						echo '<div class="alert alert-success"><strong>Rgistration Successful!</strong></div><br>
+						<div class="alert alert-success"><strong>Aarogyam Id : '. $row['MAX(`arid`)'] . ' And Password : '. $password .'</strong></div>';
+					}
 				}
 			}
 		
