@@ -44,22 +44,18 @@
     <br><div class="col-md-3"></div>
     <div id="form" class="col-md-6">
 
-<?
-  if(isset($_POST['id']) && isset($_POST['name']))
-    echo 'ok';
-?>
 
-     <form name = "arid">
-      <label for="id">Aarogyam ID</label><input  id="id" class="form-control" maxlength="40" name="id" size="20" type="text" required /><br>
-			<label for="password">Enter Password</label><input  id="password" class="form-control" maxlength="40" name="id" size="20" type="text" required /><br>
+     <form  method="POST" action="user_detail_fetch_redirect.php">
+      	<label for="id">Aarogyam ID</label>
+      	<input  id="id" class="form-control" maxlength="40" name="id" size="20" type="text" required /><br>
+			
+		<label for="password">Enter Password</label>
+		<input  id="password" class="form-control" maxlength="40" name="password" size="20" type="text" required /><br>
 
-<input class="form-control"type="submit" name="" value="Fetch user Details">
-			</form>
+		<input class="form-control" type="submit" value="Fetch user Details">
+	</form>
 
-     <div id="fetched">
-       <!-- fetched detatails -->
-     </div>
-
+     
 
     </div>
 </div>
