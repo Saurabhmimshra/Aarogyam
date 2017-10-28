@@ -22,7 +22,7 @@
 			<div class="row">
 				<div class="col-xs-5 header-logo">
 					<br>
-					<a href="index.html"><img src="img/logo.png" alt="" class="img-responsive logo"></a>
+					<a href="home.php"><img src="img/logo.jpg" alt="logo" class="img-responsive logo"></a>
 				</div>
 
 				<div class="col-md-7">
@@ -111,7 +111,7 @@
 		<div class="container">
 			<div class="row">
 				<h2>about us</h2>
-				<h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h4>
+				<h4>We started with a goal of making lives ULTRA-Convinient and ULTRA-Healthy</h4>
 				<div class="col-md-4 col-sm-6">
 					<div class="single-about-detail clearfix">
 						<div class="about-img">
@@ -119,25 +119,25 @@
 						</div>
 						<div class="about-details">
 							<div class="pentagon-text">
-								<h1>C</h1>
+								<h1>H</h1>
 							</div>
-							<h3>Children’s specialist</h3>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+							<h3>Healthy Whole!</h3>
+							<p>By keeping a Full-Fledge track of your health reports along with upcoming prescriptions and specially nurtured Healthcare Tips!</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<div class="single-about-detail">
 						<div class="about-img">
-							<img class="img-responsive" src="img/item2.jpg" alt="">
+							<img class="img-responsive" height="50" width="50" src="img/item2.jpg" alt="">
 						</div>
 						<div class="about-details">
 							<div class="pentagon-text">
-								<h1>W</h1>
+								<h1>P</h1>
 							</div>
 
-							<h3>Children’s specialist</h3>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+							<h3>Paperless Ecosystem</h3>
+							<p>We have put our best efforts to nurture a paperless ecosystem with a hope to express gratitude and love to our mother Earth!<br></p>
 						</div>
 					</div>
 				</div>
@@ -150,8 +150,60 @@
 							<div class="pentagon-text">
 								<h1>M</h1>
 							</div>
-							<h3>Children’s specialist</h3>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+							<h3>Mediclaims made CakeWalk!</h3>
+							<p>No More Monkey-Business by mediclaim providers.Claiming mediclaims are now as easy as eating a Pie!</p><br>
+                            
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <br><br>
+    <section class="about text-center" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail clearfix">
+						<div class="about-img">
+							<img class="img-responsive" src="img/item4.jpg" alt="">
+						</div>
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>W</h1>
+							</div>
+							<h3>Tracking World Health!</h3>
+							<p>Personalised Report generation helps keep a track of spreading diseases so that effective measures can be taken!</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail">
+						<div class="about-img">
+							<img class="img-responsive" height="50" width="50" src="img/item5.jpg" alt="">
+						</div>
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>@</h1>
+							</div>
+
+							<h3>Online Appointment Booking!</h3>
+							<p>Online appointments made easy!Now connect to any doctor of any hospital at your fingertips!<br></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail">
+						<div class="about-img">
+							<img class="img-responsive" src="img/item6.jpg" height="40" alt="">
+						</div>
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>A</h1>
+							</div>
+							<h3>Aarogyam Card!</h3>
+							<p>Now each and everyone is equipped with an Aarogyam card from the time of birth itself,with a validity of Lifetime!.</p><br>
+                            
 						</div>
 					</div>
 				</div>
