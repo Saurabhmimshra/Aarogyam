@@ -49,7 +49,7 @@
     <div id="form" class="col-md-6">
 
 <?
-
+	$id = 0;
   if(isset($_POST['id']) && isset($_POST['password'])){
   	$id = $_POST['id'];
 	// echo $id;
